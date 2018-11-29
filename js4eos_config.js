@@ -18,8 +18,8 @@ module.exports = {
     },
     deploy:{
         hello:{
-            jungle:'js4eostest11', //network:account
-            kylin:'js4eostest11', //network:account
+            jungle:'js4eostest11', //replace contract account to your account
+            kylin:'js4eostest11', //replace contract account to your account
         },
         // hello2:{
         //     jungle:'testtest1122', //network:account
@@ -27,7 +27,7 @@ module.exports = {
         // },
     },
     keyProvider:[
-		'5JnzYUtJMGhnC4kzU5RTQza8EbaX1LHm4CGXoM3ppm1RBunKUvN',
+		'5JnzYUtJMGhnC4kzU5RTQza8EbaX1LHm4CGXoM3ppm1RBunKUvN',//replace private key to  your contract account
 	],
     defaultNetwork:'kylin',
     eosio_cdt:false,

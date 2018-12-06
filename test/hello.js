@@ -17,7 +17,7 @@ describe("hello contract test", function() {
         await hello.setActor("js4eostest11")
     });
 
-    it('should success js4eostest11 say hi to testtest1113', async function(){
+    it('should success js4eostest11 say hi to js4eostest11', async function(){
         let processed = await hello.hi("js4eostest11")
         assert.equal(Js4eos.okTransaction(processed), true)
     });

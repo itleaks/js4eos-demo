@@ -7,7 +7,7 @@
   },
   "dependencies": {
     "chai": "^4.2.0",
-    "js4eos": "^1.5.3",
+    "js4eos": "latest",
     "mocha": "^5.2.0"
   },
   "scripts": {
